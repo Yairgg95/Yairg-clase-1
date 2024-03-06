@@ -1,12 +1,18 @@
+html { 
+    scroll-behavior: smooth;
+}
+
 li {
-    color: rgb(125, 237, 165);
+    color: rgb(209, 205, 199);
 }
 
 a {
     color: rgb(125, 237, 165); 
+    text-decoration: none;
 }
 body {
     background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
