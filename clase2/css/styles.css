@@ -1,0 +1,27 @@
+/* selector de etiqueta, este afecta todas las etiquetas */
+h1 {
+    color:red;
+    font-size: 40px;
+}
+
+/* selector universal */
+
+* {
+    margin: 0;
+}
+
+/* selector de atributos de clase */
+.parrafoazul {
+    color:blue;
+    ont-size: 20px;
+}
+
+/* selector de ID */
+#parrafoverde {
+    color: green;
+    ont-size: 20px;
+}
+
+div {
+    background-color: blue;
+}
