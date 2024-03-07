@@ -1,0 +1,46 @@
+#selectorhijodirecto article > p {
+color: blue;
+}
+
+section#selectorhijo p {
+    color: red;
+}
+
+/* selector hermano general */
+
+section#selectorhermanogeneral article span ~ button {
+    background-color: black;
+    color: white;
+}
+
+section#selectoradyacente article h3 + h4 {
+    color: yellow;
+    font-size: 20px;
+}
+
+a[href="https://www.spotify.com/mx/legal/end-user-agreement/"] {
+
+    font-size: 60px;
+    color: green;
+}
+
+input[type="password"] {
+    padding: 20px;
+}
+
+/* pseudo selectores */
+/* hover */
+
+.buttonhover {
+    background-color:  #4668a8;
+    color: white;
+    border: none;
+    padding: 10 px;
+
+}
+
+.buttonhover:hover {
+    background-color: white;
+    color: #4668a8;
+    border: 1px solid #4668a8;
+}
