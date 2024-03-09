@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#CELULAR {
+    display: block;
+}
+#TABLET {
+    display: none;
+}
+
+#DESKTOP {
+    display: none;
+}
+
+#XL {
+    display: none;
+}
+#DOSXL {
+    display: none;
+}
+
+#TRESXL {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: rgb(48, 49, 50);
+        color: rgb(1, 144, 246);
+    }
+    #TABLET {
+        display: block;
+    }
+    #CELULAR {
+        display: none;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    body{
+        background-color: rgb(73, 59, 59);
+        color: rgb(1, 144, 246);
+    }
+    #DESKTOP {
+        display: block;
+    }
+    #TABLET {
+        display: none;
+    }
+
+}
+@media screen and (min-width:1280px) {
+    body {
+        background-color: rgb(139, 77, 77);
+        color: rgb(1, 144, 246);
+    }
+    #XL {
+        display: block;
+    }
+    #DESKTOP {
+        display: none;
+    }
+}
+@media screen and (min-width:1536px) {
+    body  {
+        background-color: rgb(167, 39, 39);
+        color: rgb(1, 144, 246);
+    }
+    #DOSXL {
+        display: block;
+    }
+    #XL {
+        display: none;
+    }
+}
+@media screen and (min-width:1920px) {
+    body {
+        background-color: rgb(245, 9, 9);
+        color: rgb(1, 144, 246);
+    }
+    #TRESXL {
+        display: block;
+    }
+    #DOSXL {
+        display: none;
+    }
+}

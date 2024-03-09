@@ -1,0 +1,20 @@
+* {
+    font-style: oblique;
+}
+
+body {
+    background-color: rgba(46, 51, 61, 0.958);
+}
+
+
+.Sticky {
+    background-color: rgba(0, 0, 0, 0.361);
+    color: rgb(35, 159, 101);
+    position: sticky;
+    top: 0;
+    margin: 20px;
+}
+
+.poke {
+    
+}
