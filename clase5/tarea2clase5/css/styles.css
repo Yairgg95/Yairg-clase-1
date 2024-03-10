@@ -1,0 +1,90 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.postsec {
+    margin: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+.post {
+    width: 100%;
+   max-width: 600px; 
+   background-color: white;
+    text-align: center;
+    margin: 10px 0PX;
+}
+
+.post2 {
+    width: 100%;
+    background-color: white;
+}
+
+.imagencontainer {
+    position: relative;
+}
+
+.post img {
+    width: 100%;
+}
+
+.headlinecontent {
+    background-color: black;
+    color: white;
+    max-height: 54px;
+    
+
+}
+.dateesp {
+    background-color: black;
+    color: white; 
+    max-height: 90px;
+
+}
+a {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+@media screen and (min-width:768px) {
+    .postsec {
+        width: 40%;
+        display: inline-block;
+        max-width: 300 px;
+        
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .postsec {
+        width: 25%;
+        max-width: 320 px;
+        
+    }
+}
+
+@media screen and (min-width:1536px) {
+    .postsec {
+        width: 20%;
+        max-width: 300 px;
+        
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .postsec {
+        width: 16%;
+        max-width: 300 px;
+        
+    }
+}
