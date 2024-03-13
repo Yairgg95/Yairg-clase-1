@@ -1,0 +1,18 @@
+@mixin conteiners ($bgcolor, $colorlet) {
+    background-color: $bgcolor; 
+    border-radius: 2%;
+    padding: 20px;
+    color: $colorlet;
+}
+
+* {
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(51, 49, 49);
+    padding: 30px;
+}
