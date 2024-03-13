@@ -1,0 +1,55 @@
+@media screen and (min-width:768px) {
+    
+    body {
+        width: 100%;
+        margin: 10%;
+    }
+    .mainpadre {
+        position: relative;
+        width: 90%;
+        max-width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .post {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        max-height: 370px;
+
+    }
+    .imagencotainer {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+       
+        position: relative;
+    }
+    .postandprofilecontainer {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+        min-width: 528px;
+        max-height: auto;
+        position: relative;
+
+    }
+    .drawercont {
+        position: relative;
+        min-height: 261px;
+        margin: 0;
+        padding: 0;
+        img {
+            min-height: 261px;
+
+        }
+    }
+  
+
+    
+}
+
