@@ -34,3 +34,22 @@ div {
 .topred {
     border-top: 5px solid red;
 }
+
+.toplb {
+    border-top: 5px solid rgb(0, 195, 255);
+}
+
+.topdb {
+    border-top: 5px solid rgb(0, 0, 255);
+}
+
+.topye {
+    border-top: 5px solid rgb(255, 225, 0);
+}
+
+.contimg {
+    width: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
