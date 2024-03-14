@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(226, 226, 205, 0.647);
+}
+
+.mycol {
+    border-radius: 2%;
+    background-color: white;
+    
+}
+
+div {
+ margin: 5px;
+} 
+
+.purple {
+    background-color: rgb(158, 91, 221);
+    color: white;
+}
+
+.grey {
+    background-color: rgb(86, 92, 123);
+    color: white;
+}
+.deepgrey {
+    background-color: rgb(34, 34, 37);
+    color: white;
+}
+
+.mycol2 {
+    border-radius: 2%;
+    background-color: white;
+    
+}
+.topred {
+    border-top: 5px solid red;
+}
