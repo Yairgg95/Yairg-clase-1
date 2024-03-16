@@ -1,0 +1,27 @@
+header {
+    margin: 4rem;
+}
+main {
+    margin: 10px;
+    
+}
+
+.tarjetas {
+    padding: 2px;
+    margin: 20px;
+}
+
+.imgtarjeta {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.imgfeatu {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.divmain {
+       margin: 10px;
+       padding: 10px;
+}
